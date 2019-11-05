@@ -1,0 +1,136 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.topnav {
+  margin: auto;
+  overflow: hidden;
+  background-color: #3B5998;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  font-size: 20px;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 20px 20px;
+  text-decoration: none;
+}
+
+.topnav a:hover {
+  background-color: #fff;
+  color: black;
+}
+.topnav input{
+	float: right;
+	margin-top: 17px;
+	margin-right: 10px;
+	height: 30px;
+	font-size: 20px;
+}
+
+.sign a{
+  float: right;
+  padding: 20px 20px;
+}
+.brand{
+	text-align: center;
+}
+
+.about img{
+  padding-left: 80px;
+}
+
+/*About Us Styles*/
+header{
+  background-image: url('../images/aboutUs.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  display: block;
+  width: 100%;
+  height: 500px;
+}
+.abouttxt{
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  display: block;
+  position: absolute;
+  top: 30%;
+  left: 43%;
+}
+.subttle{
+  padding: 210px 10px 0px 620px;
+  color: white;
+  font-family: sans-serif;
+}
+
+footer{
+  height: 85px; 
+  background-color: #3B5998;
+  width: 100%;
+  margin-top:auto; 
+  position: flex;
+  bottom: 0;
+  display:block;
+}
+.footertext{
+  display: block;
+  padding-top: 35px;
+}
+.footertext p{
+  text-align: center;
+  color: white !important;
+  font-size: 13px !important;
+}
+span{
+  color: #8B9DC3;
+  font-family: monospace;
+  font-size: 16px;
+}
+span:hover{
+  color: white;
+  font-weight: bolder;
+}
+
+.abtUsSection{
+  color: white;
+  padding: 4rem 1.25rem;
+  background-color: #006699 !important;
+  position: relative;
+  height: 600px;
+  display: block;
+}
+.abtUsdiv{
+  margin: 0 -1.25rem;
+display: block;
+}
+.size .abtUsContainer{
+  max-width: 80rem;
+}
+.abtUsContainer{
+  margin: 0 auto;
+padding: 0 0.625rem;
+clear: left;
+}
+.abtUsImageContainer{
+  padding: 0 1.25rem;
+width: 100%;
+position: static;
+}
+.abtUsImage{
+  border: 0;
+display: block;
+height: 300px;
+width: 800px;
+}
+.title{
+  margin: 20px 0;
+  text-align: center;
+  padding: 10px 0;
+}
